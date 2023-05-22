@@ -4,21 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
     <link rel="stylesheet" href="./styles/utils.css" />
     <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
     <title>Inicio</title>
   </head>
   <body>
-    <nav class="flex bg-blueDark border-b mb-5">
-      <div class="logo">Logo de la empresa</div>
-      <ul class="flex gap-2 navbar-links">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Deportivas</a></li>
-        <li><a href="#">Internacionales</a></li>
-        <li><a href="#">Contáctanos</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="flex bg-blueDark border-b mb-5">
+        <div>
+          <a class="logo" href="./home.html">
+            <div class="logo-image">
+              <img src="./assets/logo.png" alt="">
+            </div>
+            <p class="company-name">Noticias SA Nacional</p>
+          </a>
+        </div>
+        
+        <ul class="flex gap-2 navbar-links">
+          <li><a href="./home.html">Inicio</a></li>
+          <li><a href="./pages/deportivos.html">Deportivas</a></li>
+          <li><a href="./pages/internacional.html">Internacionales</a></li>
+          <li><a href="./pages/contactenos.html">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </header>
     <main class="mb-5">
       <h1 class="title text-center mb-5">Noticias Nacionales</h1>
       <section class="noticias flex flex-center tex-center">
@@ -70,10 +84,10 @@
     </main>
     <footer class="bg-blue">
       <ul class="flex flex-column gap-2 footer-links">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Deportivas</a></li>
-        <li><a href="#">Internacionales</a></li>
-        <li><a href="#">Contáctanos</a></li>
+        <li><a href="./home.html">Inicio</a></li>
+        <li><a href="./pages/deportivos.html">Deportivas</a></li>
+        <li><a href="./pages/internacional.html">Internacionales</a></li>
+        <li><a href="./pages/contactenos.html">Contáctanos</a></li>
       </ul>
     </footer>
   </body>

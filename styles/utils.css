@@ -1,3 +1,15 @@
+/* Este documento es para clases de utilidades */
+
+/* se import el font montserrat para utilizarlo en los titulos */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: #1273eb;
+} 
+
 .flex {
   display: flex;
 }
@@ -31,7 +43,18 @@
   border-bottom: #1273EB solid 2px;
 }
 
+.color-blue{
+  color:#1273EB ;
+}
+
 .mb-5 {
   margin-bottom: 50px;
 }
 
+.mb-2{
+  margin-bottom: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
