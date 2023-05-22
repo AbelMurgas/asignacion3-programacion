@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gap-2 {
+  gap: 20px;
+}
+
+.bg-blueDark {
+  background-color: #052041;
+}
+
+.bg-blue {
+  background-color: #1273EB;
+}
+
+.border-b {
+  border-bottom: #1273EB solid 2px;
+}
+
+.mb-5 {
+  margin-bottom: 50px;
+}
+
